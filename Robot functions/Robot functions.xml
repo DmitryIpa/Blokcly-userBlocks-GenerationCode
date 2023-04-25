@@ -1,0 +1,23 @@
+<xml id="Robot functions" style="display: none">
+        <category name="Robot functions" colour="#5b67a5">
+	  <block type="usersetblock">
+            <field name="NAME" id=".qs:mx`u{8+R:CHKL?9@">item</field>
+          </block>
+          <block type="forward" deletable="false" movable="false" editable="false"></block>
+          <block type="backward" deletable="false" movable="false" editable="false">
+            <field name="NAME">Backward</field>
+          </block>
+          <block type="connector" deletable="false" movable="false" editable="false">
+            <field name="function">send</field>
+          </block>
+          <block type="jsonkey" deletable="false" movable="false" editable="false">
+            <field name="NAME">default</field>
+          </block>
+          <block type="getdata" deletable="false" movable="false" editable="false">
+            <field name="timer">0</field>
+          </block>
+          <block type="get_request" deletable="false" movable="false" editable="false">
+            <field name="timer">0</field>
+          </block>
+        </category>
+        </xml>
